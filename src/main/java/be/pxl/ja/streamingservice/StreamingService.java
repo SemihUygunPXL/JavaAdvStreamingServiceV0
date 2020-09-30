@@ -17,12 +17,12 @@ public class StreamingService {
 	private List<Content> contentList = new ArrayList<>();
 
 	public StreamingService() {
-		Movie the_incredibles = new Movie("The Incredibles", Rating.LITTLE_KIDS);
+		Movie the_incredibles = new Movie("The Incredibles", Rating.LITTLEKIDS);
 		the_incredibles.setReleaseDate(LocalDate.of(2004, 10, 27));
 		the_incredibles.setImageUrl("the_incredibles.jpeg");
 		contentList.add(the_incredibles);
 
-		Documentary planet_earth = new Documentary("Planet Earth", Rating.LITTLE_KIDS);
+		Documentary planet_earth = new Documentary("Planet Earth", Rating.LITTLEKIDS);
 		planet_earth.setReleaseDate(LocalDate.of(2006, 3, 5));
 		planet_earth.setImageUrl("planet_earth.jpeg");
 		contentList.add(planet_earth);
